@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+a{
+    padding: 25px;
+    text-decoration: none;
+    font-size: larger;
+    color: aliceblue;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(63, 156, 238);
+    padding: 15px;
+}
+
+.home{
+    height: calc(100vh - 140px);
+    background-color: beige;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+
+.about{
+    height: calc(100vh - 140px);
+    background-color: rgb(243, 68, 138);
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+
+
+.contact{
+    height: calc(100vh - 140px);
+    background-color: rgb(152, 244, 135);
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+
+.error{
+    height: calc(100vh - 140px);
+    background-color: crimson;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+
+.user{
+    height: calc(100vh - 140px);
+    background-color: rgba(184, 214, 243, 0.182);
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+
+.footer{
+    height: 80px;
+    background-color: rgba(38, 38, 39, 0.933);
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+    font-family: sans-serif;
+    letter-spacing: 0.5rem;
+    word-spacing: 1rem;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+button{
+    height: 50px;
+    width: 200px;
+    background-color: #333;
+    color: aliceblue;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
